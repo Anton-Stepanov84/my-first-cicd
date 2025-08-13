@@ -26,7 +26,7 @@
     <div class="container">
         <p>Эта чертова страница была автоматически развёрнута с помощью CI/CD.</p>
         <p>Время последнего обновления: <span id="timestamp"></span></p>
-        <p>echo ${{secrets.DATABASE_PASSWORD}}</p>
+        <p> <span id>="${{secrets.DATABASE_PASSWORD}}"</span></p>
     </div>
     
     <script>
